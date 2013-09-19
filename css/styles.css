@@ -1,0 +1,173 @@
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
+body{
+	padding: 0;
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #F1F2F3;
+}
+h1.logo{
+	background: #307680;
+	color: #FFF;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 400;
+	border-bottom: 1px solid #1A4D54;
+}
+
+h1.logo a{
+	background: url("../img/logo.png") no-repeat 0 2px;
+	padding-left: 40px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.center{
+	background: #FFF;
+	max-width: 980px;
+	padding: 5px;
+	margin:0 auto;
+	clear: both;
+	-webkit-box-shadow:  1px 1px 3px 2px #CCCCCC;
+    box-shadow:  1px 1px 3px 2px #CCCCCC;
+}
+
+.menu{
+	width: 230px;
+	float: left;
+	background: #F9F9F9;
+	border-right: 1px solid #CCC;
+	margin-right: 10px;
+	padding-bottom: 15px;
+}
+
+.menu ul{
+	padding: 0 0 0 10px;
+	margin-bottom: 5px;
+}
+.menu ul li{
+	list-style: none;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.menu ul h3{
+	color: #307680;
+	padding-bottom: 3px;
+	border-bottom:1px solid #EDEDED;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 10px 8px 0;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	padding-left: 20px;
+	background: url("../img/ico.png") no-repeat 2px 2px;
+	color: #999999;
+	font-weight: 300;
+	display: block;
+	margin-right: 5px;
+}
+
+.menu ul li a:hover{
+	background-position: 2px -19px;
+	color: #307680;
+}
+.conteudo{
+	float: left;
+    width: 735px;
+    font-size: 14px;
+}
+
+.conteudo p{
+	color: #646464;
+}
+.conteudo h3{
+	color: #577D8D;
+	font-size: 35px;
+	padding: 3px;
+	line-height: 37px;
+	font-weight: 200;
+	border-bottom: 1px solid #EDEDED;
+	margin: 0 0 10px;
+	padding: 0 0 4px;
+}
+
+.conteudo div.code{
+	background: #272822;
+	padding: 8px;
+	margin-bottom: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.conteudo hr{
+	clear: both;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.conteudo span{
+	color: #999999;
+	display: block;
+}
+
+/* Códigos variaveis */
+
+.conteudo div div.var{
+	float: left;
+	margin-right: 3px;
+	color: #A6E22E;
+}
+
+.conteudo div div.atr{
+	float: left;
+	color: #66D9EF;
+}
+
+/* Códigos classe */
+
+.conteudo div div.varm{
+	display: block;
+	margin-right: 3px;
+	color: #A6E22E;
+}
+
+.conteudo div div.varp{
+	float: left;
+	margin-right: 3px;
+	margin-left: 15px;
+	color: #66D9EF;
+}
+
+.conteudo div div.atrm{
+	display: block;
+	color: #AE81FF;
+}
+
+/* Fontes */
+.conteudo div div.imp{
+	float: left;
+	margin-right: 3px;
+	color: #F92672;
+}
+
+.conteudo div div.fnt{
+	float: left;
+	color: #E6DB74;
+}
+
+.conteudo div div.ft{
+	color: #FD971F;
+	float: left;
+}
+
+address{
+	font-size: 13px;
+	text-align: center;
+	background: #CCC;
+}
