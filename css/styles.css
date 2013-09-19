@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Exo:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 body{
 	padding: 0;
@@ -13,6 +14,7 @@ h1.logo{
 	font-size: 20px;
 	font-weight: 400;
 	border-bottom: 1px solid #1A4D54;
+	text-shadow: 1px 1px 1px #4F4F4F;
 }
 
 h1.logo a{
@@ -20,6 +22,33 @@ h1.logo a{
 	padding-left: 40px;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+h1.logo a.sair{
+	background: url("../img/logout.png") no-repeat 3px 2px;
+	padding: 3px 6px 4px 26px;
+	float: right;
+	line-height: 17px;
+	position: relative;
+    top: 2px;
+	font-size: 15px;
+}
+
+h1.logo a.sair:hover{
+	background-color: #1B565E;
+}
+
+h1.logo span.user{
+	float: right;
+	background: url("../img/user.png") no-repeat;
+	font-size: 15px;
+	line-height: 17px;
+	position: relative;
+    top: 5px;
+    padding-left: 22px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #1A5860;
 }
 
 .center{
@@ -84,6 +113,10 @@ h1.logo a{
 .conteudo p{
 	color: #646464;
 }
+.conteudo p strong{
+	font-weight: 800;
+}
+
 .conteudo h3{
 	color: #577D8D;
 	font-size: 35px;
@@ -111,41 +144,45 @@ h1.logo a{
 	border: 0;
 }
 
-.conteudo span{
+.conteudo .code span,
+.conteudo .code-l span{
 	color: #999999;
 	display: block;
 }
 
 /* Códigos variaveis */
 
-.conteudo div div.var{
+.conteudo .code div.var{
 	float: left;
 	margin-right: 3px;
 	color: #A6E22E;
 }
 
-.conteudo div div.atr{
+.conteudo .code div.atr{
 	float: left;
 	color: #66D9EF;
 }
 
 /* Códigos classe */
 
-.conteudo div div.varm{
+.conteudo .code div.varm strong{
 	display: block;
+	clear: both;
+	font-weight: normal;
 	margin-right: 3px;
 	color: #A6E22E;
 }
 
-.conteudo div div.varp{
+.conteudo .code .varm div.var{
 	float: left;
 	margin-right: 3px;
 	margin-left: 15px;
 	color: #66D9EF;
 }
 
-.conteudo div div.atrm{
+.conteudo .code .varm div.atr{
 	display: block;
+	float: none;
 	color: #AE81FF;
 }
 
@@ -166,8 +203,101 @@ h1.logo a{
 	float: left;
 }
 
-address{
+form.form{
+	background: url("../img/fundo.jpg");
+	border: 1px solid #658997;
+	width: 237px;
+	padding: 30px 30px 18px;
+	margin: 170px auto;
+    font-family: 'Exo', sans-serif;
+	-moz-box-shadow: 3px 3px 7px #c5cdce;
+    -webkit-box-shadow: 3px 3px 7px #c5cdce;
+    box-shadow: 3px 3px 7px #c5cdce;
+}
+
+form.form ul{
+	padding: 0;
+	margin: 0;
+}
+
+form.form ul li{
+	list-style: none;
+}
+
+form.form .lg{
+	background: url("../img/logo_loggin.png") no-repeat scroll 0 2px transparent;
+    border-bottom: 1px solid #57B6BC;
+    color: #306879;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 13px;
+    padding-bottom: 6px;
+    padding-left: 42px;
+}
+
+form.form ul li label{
+	color: #306879;
 	font-size: 13px;
-	text-align: center;
-	background: #CCC;
+}
+
+form.form ul li input{
+	width: 100%;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #394651;
+	padding: 0 5px;
+	border: 1px solid #57B6BC;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 30px;
+}
+form.form ul li input.entrar{
+	background: #5DA0A1;
+	border: 1px solid #528E8F;
+	font-family: 'Exo', sans-serif;
+	padding: 0 15px;
+	height: 29px;
+	color: #FFF;
+	width: 100px;
+	right: -36px;
+	font-size: 15px;
+	margin-top: 5px;
+	position: relative;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+form.form ul li input.entrar:hover{
+	background: #437474;
+}
+
+form.form ul li a.recuperar{
+	float: left;
+	font-size: 12px;
+	line-height: 35px;
+	text-decoration:none;
+	color: #FF6600;
+}
+
+form.form ul li a.recuperar:hover{
+	color: #5D7F8E;
+	text-decoration: underline;
+}
+
+.ex{
+	background: #F9F9F9;
+	padding:10px;
+	border: 1px solid #CECECE;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.ex p{
+	margin-top: 0;
+	margin-bottom: 7px;
+	font-weight: 600;
 }

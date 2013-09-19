@@ -15,10 +15,12 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 </p>
 <div class="code">
 	<span>// Titulos H3 páginas internas</span>
-	<div class="varm">.teste{</div>
-		<div class="varp">color:</div><div class="atrm">#CCCCCC;</div>
-		<div class="varp">color:</div><div class="atrm">#CCCCCC;</div>
-		<div class="varp">color:</div><div class="atrm">#CCCCCC;</div>
-	<div class="var">}</div>
+	<div class="varm">
+		<strong>.teste{</strong>
+		<div class="var">color:</div><div class="atr">#CCCCCC;</div>
+		<div class="var">color:</div><div class="atr">#CCCCCC;</div>
+		<div class="var">color:</div><div class="atr">#CCCCCC;</div>
+		<strong>}</strong>
+	</div>		
 	<hr />
 </div>
