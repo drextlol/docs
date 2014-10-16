@@ -19,10 +19,8 @@ model text, and a search for 'lorem ipsum' will uncover many web sites still in
 their infancy. Various versions have evolved over the years, sometimes by
 accident, sometimes on purpose (injected humour and the like).
 
-+-----------------+--------------+------------+
-| ​\*\* Teste\*\* | **Editable** | **Export** |
-+-----------------+--------------+------------+
-| Basic Styles    | ✓            | ✓          |
-+-----------------+--------------+------------+
-| Footnotes       | ✓            | ✓          |
-+-----------------+--------------+------------+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
